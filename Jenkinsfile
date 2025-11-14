@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('echo') {
       steps {
-        sh 'echo \'hellow!\''
+        sh 'echo \'sample!\''
       }
     }
 
