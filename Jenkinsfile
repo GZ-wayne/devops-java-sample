@@ -9,6 +9,6 @@ pipeline {
 
   }
   environment {
-    CredentialId = 'myjenkins'
+    gitHubConnection = 'myjenkins'
   }
 }
